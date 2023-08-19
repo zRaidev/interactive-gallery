@@ -3,7 +3,8 @@ const img = document.querySelectorAll(".grid-img");
 const modal = document.querySelector(".modal");
 const modalImg = document.querySelector(".modal-img");
 const blackScreen = document.querySelector(".black-screen");
-
+const selectElement = document.querySelector(".sort-by__select");
+const gridContainer = document.querySelector(".grid-container");
 
 img.forEach(img => {
   img.addEventListener("click", e => {
