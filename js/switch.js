@@ -39,7 +39,7 @@ function cambiarEstado() {
     switchFunc.innerHTML = `
       :root {
         --color-one: #fff; /*#333*/
-        --color-two: #efefef; /*#2f2f2f*/
+        --color-two: #e6e6e6; /*#2f2f2f*/
         --txt-color: #000;
       }
     `

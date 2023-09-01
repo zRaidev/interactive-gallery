@@ -3,251 +3,287 @@
     "src": "../img/1.jpeg",
     "alt": "friends feet photo",
     "color": "yellow",
-    "type": "people"
+    "type": "people",
+    "status": true
   },
   {
     "src": "../img/2.jpeg",
     "alt": "backroom",
     "color": "black",
-    "type": "backroom"
+    "type": "backroom",
+    "status": true
   },
   {
     "src": "../img/3.jpeg",
     "alt": "black landscape",
     "color": "blackColors",
-    "type": "landscape"
+    "type": "landscape",
+    "status": true
   },
   {
     "src": "../img/4.jpeg",
     "alt": "palm vintage landscape",
     "color": "blackColors",
-    "type": "landscape"
+    "type": "landscape",
+    "status": true
   },
   {
     "src": "../img/5.jpeg",
     "alt": "neighborhood vintage picture",
     "color": "sepia",
-    "type": "random"
+    "type": "random",
+    "status": true
   },
   {
     "src": "../img/6.jpeg",
     "alt": "vintage flowers",
     "color": "sepia",
-    "type": "flower"
+    "type": "flower",
+    "status": true
   },
   {
     "src": "../img/7.jpeg",
     "alt": "random",
     "color": "white",
-    "type": "people"
+    "type": "people",
+    "status": true
   },
   {
     "src": "../img/8.jpeg",
     "alt": "backroom",
     "color": "black",
-    "type": "backroom"
+    "type": "backroom",
+    "status": true
   },
   {
     "src": "../img/9.jpeg",
     "alt": "backroom",
     "color": "black",
-    "type": "backroom"
+    "type": "backroom",
+    "status": true
   },
   {
     "src": "../img/10.jpeg",
     "alt": "going down stairs",
     "color": "black",
-    "type": "people"
+    "type": "people",
+    "status": true
   },
   {
     "src": "../img/11.jpeg",
     "alt": "vintage",
     "color": "black",
-    "type": "people"
+    "type": "people",
+    "status": true
   },
   {
     "src": "../img/12.jpeg",
     "alt": "person shadow",
     "color": "orange",
     "type": "people",
-    "status": "inactive"
+    "status": false
   },
   {
     "src": "../img/13.jpeg",
     "alt": "person shadow",
     "color": "orange",
-    "type": "people"
+    "type": "people",
+    "status": true
   },
   {
     "src": "../img/14.jpeg",
     "alt": "person shadow",
     "color": "orange",
     "type": "people",
-    "status": "inactive"
+    "status": false
   },
   {
     "src": "../img/15.jpeg",
     "alt": "sunset",
     "color": "orange",
-    "type": "landscape"
+    "type": "landscape",
+    "status": true
   },
   {
     "src": "../img/16.jpeg",
     "alt": "person shadow",
     "color": "blackColors",
-    "type": "people"
+    "type": "people",
+    "status": true
   },
   {
     "src": "../img/17.jpeg",
     "alt": "old ship",
     "color": "sepia",
-    "type": "landscape"
+    "type": "landscape",
+    "status": true
   },
   {
     "src": "../img/18.jpeg",
     "alt": "random",
     "color": "black",
-    "type": "random"
+    "type": "random",
+    "status": true
   },
   {
     "src": "../img/19.jpeg",
     "alt": "vintage landscape",
     "color": "blackColors",
-    "type": "landscape"
+    "type": "landscape",
+    "status": true
   },
   {
     "src": "../img/20.jpeg",
     "alt": "vape",
     "color": "blue",
-    "type": "people"
+    "type": "people",
+    "status": true
   },
   {
     "src": "../img/21.jpeg",
     "alt": "path",
     "color": "yellow",
-    "type": "backroom"
+    "type": "backroom",
+    "status": true
   },
   {
     "src": "../img/22.jpeg",
     "alt": "feet",
     "color": "green",
-    "type": "people"
+    "type": "people",
+    "status": true
   },
   {
     "src": "../img/23.jpeg",
     "alt": "day moon",
     "color": "blue",
-    "type": "moon"
+    "type": "moon",
+    "status": true
   },
   {
     "src": "../img/24.jpeg",
     "alt": "trees landscape",
     "color": "yellow",
-    "type": "landscape"
+    "type": "landscape",
+    "status": true
   },
   {
     "src": "../img/25.jpeg",
     "alt": "river",
     "color": "white",
-    "type": "landscape"
+    "type": "landscape",
+    "status": true
   },
   {
     "src": "../img/26.jpeg",
     "alt": "morning moon",
     "color": "blue",
-    "type": "moon"
+    "type": "moon",
+    "status": true
   },
   {
     "src": "../img/27.jpeg",
     "alt": "vintage landscape",
     "color": "blackColors",
-    "type": "landscape"
+    "type": "landscape",
+    "status": true
   },
   {
     "src": "../img/28.jpeg",
     "alt": "vintage flowers",
     "color": "green",
     "type": "flower",
-    "status": "inactive"
+    "status": false
   },
   {
     "src": "../img/29.jpeg",
     "alt": "vintage flowers",
     "color": "green",
-    "type": "flower"
+    "type": "flower",
+    "status": true
   },
   {
     "src": "../img/30.jpeg",
     "alt": "vintage flowers",
     "color": "green",
-    "type": "flower"
+    "type": "flower",
+    "status": true
   },
   {
     "src": "../img/31.jpeg",
     "alt": "moon",
     "color": "black",
-    "type": "moon"
+    "type": "moon",
+    "status": true
   },
   {
     "src": "../img/32.jpeg",
     "alt": "sky",
     "color": "blue",
-    "type": "landscape"
+    "type": "landscape",
+    "status": true
   },
   {
     "src": "../img/33.jpeg",
     "alt": "park",
     "color": "green",
-    "type": "place"
+    "type": "place",
+    "status": true
   },
   {
     "src": "../img/34.jpeg",
     "alt": "sea",
     "color": "blue",
-    "type": "landscape"
+    "type": "landscape",
+    "status": true
   },
   {
     "src": "../img/35.jpeg",
     "alt": "la chorrera at night",
     "color": "blackColors",
-    "type": "place"
+    "type": "place",
+    "status": true
   },
   {
     "src": "../img/36.jpeg",
     "alt": "black landscape",
     "color": "black",
     "type": "landscape",
-    "status": "inactive"
+    "status": false
   },
   {
     "src": "../img/37.jpeg",
     "alt": "black landscape",
     "color": "sepia",
-    "type": "place"
+    "type": "place",
+    "status": true
   },
   {
     "src": "../img/38.jpeg",
     "alt": "cat",
     "color": "yellow",
-    "type": "place"
+    "type": "place",
+    "status": true
   },
   {
     "src": "../img/39.jpeg",
     "alt": "city sunset",
     "color": "blue",
-    "type": "landscape"
+    "type": "landscape",
+    "status": true
   },
   {
     "src": "../img/40.jpeg",
     "alt": "park",
     "color": "blue",
-    "type": "place"
+    "type": "place",
+    "status": true
   },
   {
     "src": "../img/40,2.jpeg",
     "alt": "park",
     "color": "",
     "type": "",
-    "status": "inactive"
+    "status": false
   }
 ]
