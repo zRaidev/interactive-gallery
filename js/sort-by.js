@@ -10,7 +10,6 @@ function notOrder(num) {
     }
   })
 }
-notOrder(0);
 
 
 function imageType(num) {
@@ -37,11 +36,11 @@ function imageType(num) {
       //console.log(moon);
       //console.log(place);
       //console.log(other);
-      //console.log(allArr[0])
-        imgDiv[num].innerHTML = `<img src="${allArr[num].src}" class="grid-img" alt="${allArr[num].alt}">`;
-        //console.log(allArr[num].type)
-        num++;
-        imageType(num)
+      //console.log(allArr[num].alt)
+      imgDiv[num].innerHTML = `<img src="${allArr[num].src}" class="grid-img" alt="${allArr[num].alt}">`;
+      //console.log(allArr[num].type)
+      num++;
+      imageType(num);
     })
 }
 //imageType(0);
@@ -72,17 +71,17 @@ function colors(num) {
     //console.log(place);
     //console.log(other);
     //console.log(allArr[0])
-      imgDiv[num].innerHTML = `<img src="${allArr[num].src}" class="grid-img" alt="${allArr[num].alt}">`;
-      //console.log(allArr[num].color)
-      num++;
-      colors(num)
+    imgDiv[num].innerHTML = `<img src="${allArr[num].src}" class="grid-img" alt="${allArr[num].alt}">`;
+    //console.log(allArr[num].color)
+    num++;
+    colors(num);
   })
 }
 //colors(0);
 
 document.addEventListener("change", ()=>{
   let selectOption = document.querySelector(".sort-by__select").value;
-  if (selectOption == "No Ordenar") notOrder(0)
-  if (selectOption == "Tipo de imagen") imageType(0)
-  if (selectOption == "Colores") colors(0)
+  if (selectOption == "No Ordenar") notOrder(0);
+  else if (selectOption == "Tipo de imagen") imageType(0);
+  else if (selectOption == "Colores") colors(0);
 })

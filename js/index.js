@@ -1,33 +1,41 @@
 const body = document.querySelector("body");
-const img = document.querySelectorAll(".grid-img");
 const modal = document.querySelector(".modal");
 const modalImg = document.querySelector(".modal-img");
 const blackScreen = document.querySelector(".black-screen");
 const selectElement = document.querySelector(".sort-by__select");
 const gridContainer = document.querySelector(".grid-container");
+const img = document.querySelectorAll(".grid-img");
 
 
-img.forEach(img => {
-  img.addEventListener("click", e => {
-    console.log(e);
-    modalCondition = true;
-    modal.style.display = "block";
-    blackScreen.style.opacity = "1";
-    body.style.overflow = "hidden";
-    let clickedImg = e.target;
-    let imgSrc = clickedImg.src;
-    modalImg.style.opacity = "1";
-    modalImg.src = imgSrc;
+function modalFunc() {
+  document.addEventListener("DOMContentLoaded", () => {
+    gridContainer.addEventListener("click", (e) => {
+      if (e.target.classList.contains("grid-img")) {
+        console.log(e);
+        modalCondition = true;
+        modal.style.display = "block";
+        blackScreen.style.opacity = "1";
+        body.style.overflow = "hidden";
+        let clickedImg = e.target;
+        let imgSrc = clickedImg.src;
+        modalImg.style.opacity = "1";
+        modalImg.src = imgSrc;
+      }
+    });
+
+    blackScreen.addEventListener("click", () => {
+      console.log('imagen deseleccionada');
+      modalCondition = false;
+      modal.style.display = "none";
+      blackScreen.style.opacity = "0";
+      body.style.overflow = "visible";
+      modalImg.src = "";
+    });
   });
-});
-blackScreen.addEventListener("click",()=>{
-  console.log('imagen deseleccionada');
-  modalCondition = false;
-  modal.style.display = "none";
-  blackScreen.style.opacity = "0";
-  body.style.overflow = "visible"
-  modalImg.src = ""
-})
+}
+
+modalFunc();
+
 
 
 //IMG DIVS
@@ -68,3 +76,4 @@ const imgDiv34 = document.querySelector(".div-34");
 const imgDiv35 = document.querySelector(".div-35");
 const imgDiv36 = document.querySelector(".div-36");
 const imgDiv = [imgDiv1,imgDiv2,imgDiv3,imgDiv4,imgDiv5,imgDiv6,imgDiv7,imgDiv8,imgDiv9,imgDiv10,imgDiv11,imgDiv12,imgDiv13,imgDiv14,imgDiv15,imgDiv16,imgDiv17,imgDiv18,imgDiv19,imgDiv20,imgDiv21,imgDiv22,imgDiv23,imgDiv24,imgDiv25,imgDiv26,imgDiv27,imgDiv28,imgDiv29,imgDiv30,imgDiv31,imgDiv32,imgDiv33,imgDiv34,imgDiv35,imgDiv36];
+
