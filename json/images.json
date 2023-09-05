@@ -239,10 +239,11 @@
   },
   {
     "src": "../img/35.jpeg",
-    "alt": "la chorrera at night",
-    "color": "blackColors",
-    "type": "place",
+    "alt": "city sunset",
+    "color": "blue",
+    "type": "landscape",
     "status": true
+
   },
   {
     "src": "../img/36.jpeg",
@@ -267,9 +268,9 @@
   },
   {
     "src": "../img/39.jpeg",
-    "alt": "city sunset",
-    "color": "blue",
-    "type": "landscape",
+    "alt": "la chorrera at night",
+    "color": "blackColors",
+    "type": "place",
     "status": true
   },
   {
