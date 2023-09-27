@@ -18,44 +18,44 @@ function phoneResponsive(phone) {
   if (phone.matches) { // If media query matches
     gridContainer.innerHTML = `
         <section class="flex-grid-1">
-          <div class="div-1"><img src="../img/1.jpeg" class="grid-img" alt="friends feet photo"></div>
-          <div class="div-3"><img src="../img/3.jpeg" class="grid-img" alt="black landscape"></div>
-          <div class="div-5"><img src="../img/5.jpeg" class="grid-img" alt="neighborhood vintage picture"></div>
-          <div class="div-7"><img src="../img/7.jpeg" class="grid-img" alt="random"></div>
-          <div class="div-9"><img src="../img/9.jpeg" class="grid-img" alt="backroom"></div>
-          <div class="div-11"><img src="../img/11.jpeg" class="grid-img" alt="vintage"></div>
-          <div class="div-13"><img src="../img/5.jpeg" class="grid-img" alt="neighborhood vintage picture"></div>
-          <div class="div-15"><img src="../img/6.jpeg" class="grid-img" alt="vintage flowers"></div>
-          <div class="div-17"><img src="../img/30.jpeg" class="grid-img" alt="vintage flowers"></div>
-          <div class="div-19"><img src="../img/4.jpeg" class="grid-img" alt="palm vintage landscape"></div>
-          <div class="div-21"><img src="../img/17.jpeg" class="grid-img" alt="old ship"></div>
-          <div class="div-23"><img src="../img/24.jpeg" class="grid-img" alt="trees landscape"></div>
-          <div class="div-25"><img src="../img/27.jpeg" class="grid-img" alt="vintage landscape"></div>
-          <div class="div-27"><img src="../img/34.jpeg" class="grid-img" alt="sea"></div>
-          <div class="div-29"><img src="../img/23.jpeg" class="grid-img" alt="day moon"></div>
-          <div class="div-31"><img src="../img/31.jpeg" class="grid-img" alt="moon"></div>
-          <div class="div-33"><img src="../img/35.jpeg" class="grid-img" alt="la chorrera at night"></div>
-          <div class="div-35"><img src="../img/38.jpeg" class="grid-img" alt="cat"></div>
+          <div class="div-1"><img src="./img/1.jpeg" class="grid-img" alt="friends feet photo"></div>
+          <div class="div-3"><img src="./img/3.jpeg" class="grid-img" alt="black landscape"></div>
+          <div class="div-5"><img src="./img/5.jpeg" class="grid-img" alt="neighborhood vintage picture"></div>
+          <div class="div-7"><img src="./img/7.jpeg" class="grid-img" alt="random"></div>
+          <div class="div-9"><img src="./img/9.jpeg" class="grid-img" alt="backroom"></div>
+          <div class="div-11"><img src="./img/11.jpeg" class="grid-img" alt="vintage"></div>
+          <div class="div-13"><img src="./img/5.jpeg" class="grid-img" alt="neighborhood vintage picture"></div>
+          <div class="div-15"><img src="./img/6.jpeg" class="grid-img" alt="vintage flowers"></div>
+          <div class="div-17"><img src="./img/30.jpeg" class="grid-img" alt="vintage flowers"></div>
+          <div class="div-19"><img src="./img/4.jpeg" class="grid-img" alt="palm vintage landscape"></div>
+          <div class="div-21"><img src="./img/17.jpeg" class="grid-img" alt="old ship"></div>
+          <div class="div-23"><img src="./img/24.jpeg" class="grid-img" alt="trees landscape"></div>
+          <div class="div-25"><img src="./img/27.jpeg" class="grid-img" alt="vintage landscape"></div>
+          <div class="div-27"><img src="./img/34.jpeg" class="grid-img" alt="sea"></div>
+          <div class="div-29"><img src="./img/23.jpeg" class="grid-img" alt="day moon"></div>
+          <div class="div-31"><img src="./img/31.jpeg" class="grid-img" alt="moon"></div>
+          <div class="div-33"><img src="./img/35.jpeg" class="grid-img" alt="la chorrera at night"></div>
+          <div class="div-35"><img src="./img/38.jpeg" class="grid-img" alt="cat"></div>
         </section>
         <section class="flex-grid-2">
-          <div class="div-2"><img src="../img/2.jpeg" class="grid-img" alt="backroom"></div>
-          <div class="div-4"><img src="../img/4.jpeg" class="grid-img" alt="palm vintage landscape"></div>
-          <div class="div-6"><img src="../img/6.jpeg" class="grid-img" alt="vintage flowers"></div>
-          <div class="div-8"><img src="../img/8.jpeg" class="grid-img" alt="backroom"></div>
-          <div class="div-10"><img src="../img/10.jpeg" class="grid-img" alt="going down stairs"></div>
-          <div class="div-12"><img src="../img/21.jpeg" class="grid-img" alt="path"></div>
-          <div class="div-14"><img src="../img/18.jpeg" class="grid-img" alt="random"></div>
-          <div class="div-16"><img src="../img/29.jpeg" class="grid-img" alt="vintage flowers"></div>
-          <div class="div-18"><img src="../img/3.jpeg" class="grid-img" alt="black landscape"></div>
-          <div class="div-20"><img src="../img/15.jpeg" class="grid-img" alt="sunset"></div>
-          <div class="div-22"><img src="../img/19.jpeg" class="grid-img" alt="vintage landscape"></div>
-          <div class="div-24"><img src="../img/25.jpeg" class="grid-img" alt="river"></div>
-          <div class="div-26"><img src="../img/32.jpeg" class="grid-img" alt="sky"></div>
-          <div class="div-28"><img src="../img/39.jpeg" class="grid-img" alt="city sunset"></div>
-          <div class="div-30"><img src="../img/26.jpeg" class="grid-img" alt="morning moon"></div>
-          <div class="div-32"><img src="../img/33.jpeg" class="grid-img" alt="park"></div>
-          <div class="div-34"><img src="../img/37.jpeg" class="grid-img" alt="black landscape"></div>
-          <div class="div-36"><img src="../img/40.jpeg" class="grid-img" alt="park"></div>
+          <div class="div-2"><img src="./img/2.jpeg" class="grid-img" alt="backroom"></div>
+          <div class="div-4"><img src="./img/4.jpeg" class="grid-img" alt="palm vintage landscape"></div>
+          <div class="div-6"><img src="./img/6.jpeg" class="grid-img" alt="vintage flowers"></div>
+          <div class="div-8"><img src="./img/8.jpeg" class="grid-img" alt="backroom"></div>
+          <div class="div-10"><img src="./img/10.jpeg" class="grid-img" alt="going down stairs"></div>
+          <div class="div-12"><img src="./img/21.jpeg" class="grid-img" alt="path"></div>
+          <div class="div-14"><img src="./img/18.jpeg" class="grid-img" alt="random"></div>
+          <div class="div-16"><img src="./img/29.jpeg" class="grid-img" alt="vintage flowers"></div>
+          <div class="div-18"><img src="./img/3.jpeg" class="grid-img" alt="black landscape"></div>
+          <div class="div-20"><img src="./img/15.jpeg" class="grid-img" alt="sunset"></div>
+          <div class="div-22"><img src="./img/19.jpeg" class="grid-img" alt="vintage landscape"></div>
+          <div class="div-24"><img src="./img/25.jpeg" class="grid-img" alt="river"></div>
+          <div class="div-26"><img src="./img/32.jpeg" class="grid-img" alt="sky"></div>
+          <div class="div-28"><img src="./img/39.jpeg" class="grid-img" alt="city sunset"></div>
+          <div class="div-30"><img src="./img/26.jpeg" class="grid-img" alt="morning moon"></div>
+          <div class="div-32"><img src="./img/33.jpeg" class="grid-img" alt="park"></div>
+          <div class="div-34"><img src="./img/37.jpeg" class="grid-img" alt="black landscape"></div>
+          <div class="div-36"><img src="./img/40.jpeg" class="grid-img" alt="park"></div>
         </section>
     `
   } else { //TABLETS
@@ -63,46 +63,46 @@ function phoneResponsive(phone) {
       if (tablet.matches) { // If media query matches
         gridContainer.innerHTML = `
           <section class="flex-grid-1">
-            <div class="div-1"><img src="../img/1.jpeg" class="grid-img" alt="friends feet photo"></div>
-            <div class="div-4"><img src="../img/4.jpeg" class="grid-img" alt="palm vintage landscape"></div>
-            <div class="div-7"><img src="../img/7.jpeg" class="grid-img" alt="random"></div>
-            <div class="div-10"><img src="../img/10.jpeg" class="grid-img" alt="going down stairs"></div>
-            <div class="div-13"><img src="../img/5.jpeg" class="grid-img" alt="neighborhood vintage picture"></div>
-            <div class="div-16"><img src="../img/29.jpeg" class="grid-img" alt="vintage flowers"></div>
-            <div class="div-19"><img src="../img/4.jpeg" class="grid-img" alt="palm vintage landscape"></div>
-            <div class="div-22"><img src="../img/19.jpeg" class="grid-img" alt="vintage landscape"></div>
-            <div class="div-25"><img src="../img/27.jpeg" class="grid-img" alt="vintage landscape"></div>
-            <div class="div-28"><img src="../img/39.jpeg" class="grid-img" alt="city sunset"></div>
-            <div class="div-31"><img src="../img/31.jpeg" class="grid-img" alt="moon"></div>
-            <div class="div-34"><img src="../img/37.jpeg" class="grid-img" alt="black landscape"></div>
+            <div class="div-1"><img src="./img/1.jpeg" class="grid-img" alt="friends feet photo"></div>
+            <div class="div-4"><img src="./img/4.jpeg" class="grid-img" alt="palm vintage landscape"></div>
+            <div class="div-7"><img src="./img/7.jpeg" class="grid-img" alt="random"></div>
+            <div class="div-10"><img src="./img/10.jpeg" class="grid-img" alt="going down stairs"></div>
+            <div class="div-13"><img src="./img/5.jpeg" class="grid-img" alt="neighborhood vintage picture"></div>
+            <div class="div-16"><img src="./img/29.jpeg" class="grid-img" alt="vintage flowers"></div>
+            <div class="div-19"><img src="./img/4.jpeg" class="grid-img" alt="palm vintage landscape"></div>
+            <div class="div-22"><img src="./img/19.jpeg" class="grid-img" alt="vintage landscape"></div>
+            <div class="div-25"><img src="./img/27.jpeg" class="grid-img" alt="vintage landscape"></div>
+            <div class="div-28"><img src="./img/39.jpeg" class="grid-img" alt="city sunset"></div>
+            <div class="div-31"><img src="./img/31.jpeg" class="grid-img" alt="moon"></div>
+            <div class="div-34"><img src="./img/37.jpeg" class="grid-img" alt="black landscape"></div>
             </section>
           <section class="flex-grid-2">
-            <div class="div-2"><img src="../img/2.jpeg" class="grid-img" alt="backroom"></div>
-            <div class="div-5"><img src="../img/5.jpeg" class="grid-img" alt="neighborhood vintage picture"></div>
-            <div class="div-8"><img src="../img/8.jpeg" class="grid-img" alt="backroom"></div>
-            <div class="div-11"><img src="../img/11.jpeg" class="grid-img" alt="vintage"></div>
-            <div class="div-14"><img src="../img/18.jpeg" class="grid-img" alt="random"></div>
-            <div class="div-17"><img src="../img/30.jpeg" class="grid-img" alt="vintage flowers"></div>
-            <div class="div-20"><img src="../img/15.jpeg" class="grid-img" alt="sunset"></div>
-            <div class="div-23"><img src="../img/24.jpeg" class="grid-img" alt="trees landscape"></div>
-            <div class="div-26"><img src="../img/32.jpeg" class="grid-img" alt="sky"></div>
-            <div class="div-29"><img src="../img/23.jpeg" class="grid-img" alt="day moon"></div>
-            <div class="div-32"><img src="../img/33.jpeg" class="grid-img" alt="park"></div>
-            <div class="div-35"><img src="../img/38.jpeg" class="grid-img" alt="cat"></div>
+            <div class="div-2"><img src="./img/2.jpeg" class="grid-img" alt="backroom"></div>
+            <div class="div-5"><img src="./img/5.jpeg" class="grid-img" alt="neighborhood vintage picture"></div>
+            <div class="div-8"><img src="./img/8.jpeg" class="grid-img" alt="backroom"></div>
+            <div class="div-11"><img src="./img/11.jpeg" class="grid-img" alt="vintage"></div>
+            <div class="div-14"><img src="./img/18.jpeg" class="grid-img" alt="random"></div>
+            <div class="div-17"><img src="./img/30.jpeg" class="grid-img" alt="vintage flowers"></div>
+            <div class="div-20"><img src="./img/15.jpeg" class="grid-img" alt="sunset"></div>
+            <div class="div-23"><img src="./img/24.jpeg" class="grid-img" alt="trees landscape"></div>
+            <div class="div-26"><img src="./img/32.jpeg" class="grid-img" alt="sky"></div>
+            <div class="div-29"><img src="./img/23.jpeg" class="grid-img" alt="day moon"></div>
+            <div class="div-32"><img src="./img/33.jpeg" class="grid-img" alt="park"></div>
+            <div class="div-35"><img src="./img/38.jpeg" class="grid-img" alt="cat"></div>
             </section>
           <section class="flex-grid-3">
-            <div class="div-3"><img src="../img/3.jpeg" class="grid-img" alt="black landscape"></div>
-            <div class="div-6"><img src="../img/6.jpeg" class="grid-img" alt="vintage flowers"></div>
-            <div class="div-9"><img src="../img/9.jpeg" class="grid-img" alt="backroom"></div>
-            <div class="div-12"><img src="../img/21.jpeg" class="grid-img" alt="path"></div>
-            <div class="div-15"><img src="../img/6.jpeg" class="grid-img" alt="vintage flowers"></div>
-            <div class="div-18"><img src="../img/3.jpeg" class="grid-img" alt="black landscape"></div>
-            <div class="div-21"><img src="../img/17.jpeg" class="grid-img" alt="old ship"></div>
-            <div class="div-24"><img src="../img/25.jpeg" class="grid-img" alt="river"></div>
-            <div class="div-27"><img src="../img/34.jpeg" class="grid-img" alt="sea"></div>
-            <div class="div-30"><img src="../img/26.jpeg" class="grid-img" alt="morning moon"></div>
-            <div class="div-33"><img src="../img/35.jpeg" class="grid-img" alt="la chorrera at night"></div>
-            <div class="div-36"><img src="../img/40.jpeg" class="grid-img" alt="park"></div>
+            <div class="div-3"><img src="./img/3.jpeg" class="grid-img" alt="black landscape"></div>
+            <div class="div-6"><img src="./img/6.jpeg" class="grid-img" alt="vintage flowers"></div>
+            <div class="div-9"><img src="./img/9.jpeg" class="grid-img" alt="backroom"></div>
+            <div class="div-12"><img src="./img/21.jpeg" class="grid-img" alt="path"></div>
+            <div class="div-15"><img src="./img/6.jpeg" class="grid-img" alt="vintage flowers"></div>
+            <div class="div-18"><img src="./img/3.jpeg" class="grid-img" alt="black landscape"></div>
+            <div class="div-21"><img src="./img/17.jpeg" class="grid-img" alt="old ship"></div>
+            <div class="div-24"><img src="./img/25.jpeg" class="grid-img" alt="river"></div>
+            <div class="div-27"><img src="./img/34.jpeg" class="grid-img" alt="sea"></div>
+            <div class="div-30"><img src="./img/26.jpeg" class="grid-img" alt="morning moon"></div>
+            <div class="div-33"><img src="./img/35.jpeg" class="grid-img" alt="la chorrera at night"></div>
+            <div class="div-36"><img src="./img/40.jpeg" class="grid-img" alt="park"></div>
           </section>
         `
       }
