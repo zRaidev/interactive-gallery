@@ -7,12 +7,6 @@ const gridContainer = document.querySelector(".grid-container");
 const img = document.querySelectorAll(".grid-img");
 
 
-
-
-
-
-
-
 //PHONES
 function phoneResponsive(phone) {
   if (phone.matches) { // If media query matches
@@ -119,19 +113,6 @@ phoneResponsive(phone) // Call listener function at run time
 phone.addEventListener("change", phone) // Attach listener function on state changes
 
 
-//TABLETS
-
-
-
-
-
-
-
-
-
-
-
-
 function modalFunc() {
   document.addEventListener("DOMContentLoaded", () => {
     gridContainer.addEventListener("click", (e) => {
@@ -158,9 +139,7 @@ function modalFunc() {
     });
   });
 }
-
 modalFunc();
-
 
 
 //IMG DIVS
@@ -201,4 +180,3 @@ const imgDiv34 = document.querySelector(".div-34");
 const imgDiv35 = document.querySelector(".div-35");
 const imgDiv36 = document.querySelector(".div-36");
 const imgDiv = [imgDiv1,imgDiv2,imgDiv3,imgDiv4,imgDiv5,imgDiv6,imgDiv7,imgDiv8,imgDiv9,imgDiv10,imgDiv11,imgDiv12,imgDiv13,imgDiv14,imgDiv15,imgDiv16,imgDiv17,imgDiv18,imgDiv19,imgDiv20,imgDiv21,imgDiv22,imgDiv23,imgDiv24,imgDiv25,imgDiv26,imgDiv27,imgDiv28,imgDiv29,imgDiv30,imgDiv31,imgDiv32,imgDiv33,imgDiv34,imgDiv35,imgDiv36];
-

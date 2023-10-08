@@ -48,5 +48,3 @@ function cambiarEstado() {
 
 // Agregar un evento de cambio al interruptor
 toggleSwitch.addEventListener('change', cambiarEstado);
-
-
